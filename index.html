@@ -32,7 +32,7 @@
 		return;
 	  }
 	
-	  qrcode.makeCode(elText.value);
+	  qrcode.makeCode(elText.value,{correctLevel:QRCode.CorrectLevel.H});
    }
 
    makeCode();
